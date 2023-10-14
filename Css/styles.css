@@ -5,3 +5,7 @@ body {
     gap: 20px;
     font-family: Arial, sans-serif;
 }
+a:hover {
+    transition: color 0.3s;
+    color: royalblue;
+}
