@@ -9,3 +9,12 @@ a:hover {
     transition: color 0.3s;
     color: royalblue;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgray;
+    }
+}
+
+button:disabled {
+    color: var(--disabled-color, gray);
+}
