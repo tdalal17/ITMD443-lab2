@@ -18,3 +18,7 @@ a:hover {
 button:disabled {
     color: var(--disabled-color, gray);
 }
+button::before {
+    content: '👉';
+    margin-right: 5px;
+}
